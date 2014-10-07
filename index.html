@@ -3,10 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="author" content="Fabien Bousquet">
   <title>Fabien Bousquet</title>
   <!-- Bootstrap -->
-  <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
@@ -17,7 +19,7 @@
 </head>
 
 <body>
-  <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
@@ -28,7 +30,7 @@
         </button>
         <a class="navbar-brand" href="#">Fabien Bousquet</a>
       </div>
-      <div class="collapse navbar-collapse">
+      <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
           <li class="active"><a href="#home">Accueil</a></li>
           <li><a href="#skills">Compétences</a></li>
@@ -36,13 +38,22 @@
           <li><a href="#education">Formation</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-      </div>
+      </div><!--/.navbar-collapse -->
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Site en construction
+        <button type="button" class="btn btn-warning btn-circle btn-xl">
+          <i class="glyphicon glyphicon-warning-sign"></i>
+        </button>
+      </h1>
     </div>
   </div>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.js"></script>
   <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </body>
-
 </html>
